@@ -29,7 +29,28 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber = 33
 
 let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+
+
+//    **************  Operation ****************
+
+let value = 3
+let negvalue = -value
+console.log(negvalue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2/2);
+// console.log(2*2);
+// console.log(2**2);
+// console.log(2%2);
+
+let str1 = "akif"
+let str2 = "mehmood"
+
+let str3 = str1 + str2
+console.log(str3);
 
 
