@@ -158,3 +158,62 @@ document.writeln("Bismillah hirrehmaan nirraheem <br><br>");
         remainingPlates = ++remainingPlates;
         alert(`There are ${remainingPlates} plates available`);
 
+
+        // Operators
+
+        //  =      comparison
+        //  ==     not strict comparison
+        //  ===    strict
+        //  !=     not strict
+        //  !==    strict
+        //  >=
+        //  <=
+        //  >
+        //  <
+
+      //  =      ---->    assigment operator
+
+      a  = 12;
+
+      //  ==     ---->    comparison operator value check only
+
+      12 == 13     //     false
+      12 == "12"   //     true   only value check
+
+      //  ===    ---->    comparison operator value & type check
+
+      12 === "12"  //     false  check value & type
+
+      //  !=    ---->     kia nhi hai barabr value
+
+      12 != 13     //     true
+      12 != 12    //      false
+
+      //  !==    ---->     kia nhi hai barabr value & type
+
+      12 !== "12"  //     true 
+      12 !== 12   //      false
+      
+      12 !== "13"  //     true
+      12 !== 13   //      ture
+
+      //  >    ----->     greater then operator
+
+      12 > 11  // true    // 12 bara hai 11 se 
+      12 > 13  // false 
+
+      //  <    ----->     greater then operator
+
+      12 < 13  // true    // 12 chota hai 13 se 
+      12 < 11  // false
+
+       //  <=    ----->     greater then operator
+
+       12 <= 12  // true    // 12 chota hai 12 se ya barabr hai
+       14 <= 13  // false
+
+       16 >= 14
+
+
+      
+
