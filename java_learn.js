@@ -158,6 +158,5 @@ document.writeln("Bismillah hirrehmaan nirraheem <br><br>");
         remainingPlates = ++remainingPlates;
         alert(`There are ${remainingPlates} plates available`);
 
-
       
 
