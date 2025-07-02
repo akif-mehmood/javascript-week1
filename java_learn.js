@@ -134,3 +134,30 @@ document.writeln("Bismillah hirrehmaan nirraheem <br><br>");
         dec1--;
         document.writeln(dec1 + dec2)
         document.writeln("<br>");
+
+        // Question 1
+
+        score1 = 10;
+        score2 = 15;
+        score3 = 20;
+
+        totalScore = score1 + score2 + score3;
+        console.log(totalScore);  // answer 45
+
+        avrgscore = totalScore / 3;
+        console.log(avrgscore);  // answer 15
+
+
+        // question 2
+
+        plates = 20;
+        people = 7;
+        remainingPlates = plates - people;
+        console.log(remainingPlates); // answer 13
+
+        remainingPlates = ++remainingPlates;
+        alert(`There are ${remainingPlates} plates available`);
+
+
+      
+
