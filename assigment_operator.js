@@ -252,11 +252,10 @@
       let count = 5;
           //5       
       if (count-- === 5) {
-        console.log("Matched");
+        console.log("Matched"); // answer "Matched"
       } else {
-        console.log("Not matched");
-      }
-
+        console.log("Not matched"); 
+      }   
 
 
 
