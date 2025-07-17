@@ -115,10 +115,88 @@ for (let kj = 1; kj < 11; kj++){
 
 // Q6. Find the sum of numbers form 1 to 100 using a loop.
 
-for(let ij = 1; ij<101; ij++){
-    sum = sum + something;
+let sum = 0;
+for (let ij = 1; ij<101; ij++) {
+    sum = sum + ij;
 }
 
+console.log(sum);
+
 // Q7. print all numbers between 1 to 50 that are divisible by 3.
+
+for( let mn = 1; mn<51; mn++) {
+    if(mn%3 === 0) {
+        console.log(mn);
+    }
+}
+
 // Q8. Ask the user for a number and print whether each number from
-``
+
+let val = prompt(`give a number`);
+
+for (let sh = 1; sh <= val; sh++) {
+    if (sh % 2 === 0) {
+        console.log(`${sh} is even`);
+    } else {
+        console.log(`${sh} is odd`);
+    }
+}
+
+// Q9. Count how many numbers between 1 to 100 are divisible by both 3 and 5.
+
+for (let ali = 1; ali < 101; ali++) {
+    if (ali % 3 === 0 && ali % 5 === 0) {
+        console.log(ali);
+    }
+}
+
+// Q10. Stop at first Multiple of 7 
+
+// Write a loop form 1 to 100 that:
+// . prints each number
+// . stop completely when it finds the first number divisible by 7
+
+for (let shz = 1; shz < 101; shz++) {
+    console.log(shz);
+
+    if (shz % 7 === 0) {
+        break;
+    }
+}
+
+// Q11. Skip Multiples of 3
+
+// Write a loop form 1 to 20 that:
+// . Skip numbers divisible by 3
+// . Print all others 
+
+// Use continue
+
+// Expected ouput:
+// 1 2 4 5 7 8 10 11 ... (no 3, 6, 9, etc)
+
+for (let ak = 1; ak < 21; ak++) {
+    if (ak % 3 === 0) continue;
+    console.log(ak);
+}
+
+// Q12 Print First 5 odd numbers only 
+
+// write a loop form 1 to 100 that:
+// . print only 4 odd numbers
+// . then stops the loop
+
+// use both if, continue, and a counter + break
+
+// Expected output:
+// 1 3 5 7 9
+
+let count = 0;
+for (as = 1; as <= 20; as++) {
+    if (as % 2 === 1) {
+        count++;
+        console.log(as)
+    }
+
+    if (count == 5) break;
+}
